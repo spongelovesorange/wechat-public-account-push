@@ -13,8 +13,8 @@ USE_PASSAGE: 'push-deer',
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
-  PROVINCE: '江苏',
-  CITY: '苏州',
+  PROVINCE: '安徽',
+  CITY: '芜湖',
 
   USERS: [
     {
@@ -32,9 +32,7 @@ USE_PASSAGE: 'push-deer',
           type: '*生日', name: '灿娜娜', year: '2004', date: '02-17',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
+        
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '03-28',
         },
